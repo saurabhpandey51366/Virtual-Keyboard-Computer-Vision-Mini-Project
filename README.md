@@ -9,17 +9,17 @@ Key Press Simulation: Uses the pynput library to simulate actual key presses on 
 
 # File Descriptions
 # multiHandTracking.py
-    This script is responsible for detecting and tracking multiple hands using the cvzone HandTrackingModule. Key functionalities include:
-        Capturing video feed from the webcam.
-        Detecting hands and tracking their landmarks.
-        Calculating distances between key landmarks to determine gestures.
-        Displaying the processed video feed with hand landmarks and bounding boxes.
+This script is responsible for detecting and tracking multiple hands using the cvzone HandTrackingModule. Key functionalities include:
+    Capturing video feed from the webcam.
+    Detecting hands and tracking their landmarks.
+    Calculating distances between key landmarks to determine gestures.
+    Displaying the processed video feed with hand landmarks and bounding boxes.
 # virtualKeyboard.py
-    This script implements the virtual keyboard functionality. Key functionalities include:
-        Displaying a virtual keyboard on the screen.
-        Detecting hand gestures to determine which key is being "pressed."
-        Simulating key presses using the pynput library.
-        Handling special keys like Space, Enter, and Clear.
+This script implements the virtual keyboard functionality. Key functionalities include:
+    Displaying a virtual keyboard on the screen.
+    Detecting hand gestures to determine which key is being "pressed."
+    Simulating key presses using the pynput library.
+    Handling special keys like Space, Enter, and Clear.
 # Dependencies
     OpenCV
     cvzone
